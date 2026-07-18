@@ -87,4 +87,18 @@ In short: **sentiment shapes behavior, but skill determines outcome.** A
 sentiment-aware strategy only adds value layered on top of an already-consistent 
 trading approach — it is not a substitute for one.
 
+## Setup & How to Run
 
+**Requirements:**
+pandas
+matplotlib
+seaborn
+
+**Steps:**
+1. Clone this repository
+2. Ensure `fear_greed_index.csv` and `historical_data.csv` are in the root directory
+3. Run notebooks in order:
+   - `1_Data_Preparation.ipynb` — cleans and merges the datasets
+   - `2_Performance_Analysis.ipynb` — performance, behavior, and segmentation analysis
+   - `3_Strategy.ipynb` — strategy recommendations and final summary
+4. Each notebook can be run top-to-bottom in Jupyter or VS Code
